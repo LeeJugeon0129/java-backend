@@ -1,0 +1,13 @@
+package projectA13;
+
+public class Button {
+	OnClickListenner listenner;
+	
+	void setOnClickListenner(OnClickListenner listenner) {
+		this.listenner = listenner;
+	}
+	
+	interface OnClickListenner{
+		void onClick();
+	}
+}

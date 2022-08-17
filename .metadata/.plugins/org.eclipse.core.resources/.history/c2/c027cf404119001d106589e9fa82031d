@@ -1,0 +1,16 @@
+package projectA14;
+
+public class projectA1408 {
+
+	public static void main(String[] args) {
+		String[] data = new String[] {"1"};
+		try {
+			String data1 = data[0];
+			String data2 = data[1];
+			int value1 = Integer.parseInt(data1);
+			int value2 = Integer.parseInt(data2);
+			
+		}
+	}
+
+}

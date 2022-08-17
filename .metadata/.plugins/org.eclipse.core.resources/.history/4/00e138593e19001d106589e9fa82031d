@@ -1,0 +1,19 @@
+package projectA14;
+
+public class projectA1405 {
+
+	public static void main(String[] args) {
+		String data = null;
+		
+		for(;;) {
+			try {
+				System.out.println(data.toString());
+			}catch(NullPointerException e) {
+//				data = "";
+			}
+		}
+		
+		
+	}
+
+}

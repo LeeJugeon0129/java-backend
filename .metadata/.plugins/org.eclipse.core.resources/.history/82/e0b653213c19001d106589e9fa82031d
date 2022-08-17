@@ -1,0 +1,29 @@
+package projectA14;
+
+import java.util.Scanner;
+
+public class projectA1404 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String value1 = "";
+		String value2 = "";
+		
+		int intValue1 = 0;
+		int intValue2 = 0;
+		while(true) {
+			try {
+				intValue1 = Integer.parseInt(value1);
+				intValue2 = Integer.parseInt(value2);
+				break;
+			}catch(NumberFormatException e) {
+				value2 = "100";
+				intValue2 = Integer.parseInt(value2);
+			}
+		}
+		int result = intValue1 + intValue2;
+		System.out.println("결과 : "+ result);
+	}
+
+}

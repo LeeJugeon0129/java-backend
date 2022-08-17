@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="projectA12.RemoteControl"/>
+    <fullyQualifiedTypeName name="projectA12.SmartTelevision"/>
+    <fullyQualifiedTypeName name="projectA13.A.B"/>
+    <fullyQualifiedTypeName name="projectA13.A.C"/>
+    <fullyQualifiedTypeName name="projectA13.AA.BB"/>
+    <fullyQualifiedTypeName name="projectA13.AA.CC"/>
+    <fullyQualifiedTypeName name="projectA13.OutterA.Nested"/>
+    <fullyQualifiedTypeName name="projectA13.AAAAA.BBBBB"/>
+    <fullyQualifiedTypeName name="projectA13.AAAAA.BBBBB.CCCCC"/>
+    <fullyQualifiedTypeName name="projectA13.RemoteControl"/>
+    <fullyQualifiedTypeName name="projectA13.Button.OnClickListenner"/>
+    <fullyQualifiedTypeName name="projectA13.ButtonA.OnClickListenner"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.util.Vector"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="projectA15.CollectionsEx"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+</qualifiedTypeNameHistroy>

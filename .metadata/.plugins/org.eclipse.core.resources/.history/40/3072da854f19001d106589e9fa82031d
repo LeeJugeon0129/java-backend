@@ -1,0 +1,9 @@
+package projectA14;
+
+public class BalenceInsufficientException {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

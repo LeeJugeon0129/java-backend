@@ -1,0 +1,15 @@
+package projectA13;
+
+public class AAA {
+	BBB bfield1 = new BBB();
+	CCC cfield1 = new CCC();
+	
+	
+	
+	class BBB{
+	}
+	
+	static class CCC{
+	}
+	
+}
