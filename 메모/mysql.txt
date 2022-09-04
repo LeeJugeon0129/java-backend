@@ -1,0 +1,66 @@
+--------------0823--------------
+* sql
+
+- 1. INSERT INTO 테이블이름(필드이름1, 필드이름2, 필드이름3, ...)
+   VALUES (데이터값1, 데이터값2, 데이터값3, ...)
+
+2. INSERT INTO 테이블이름
+   VALUES (데이터값1, 데이터값2, 데이터값3, ...)
+
+- DELETE FROM 테이블이름
+WHERE 필드이름=데이터값
+
+- CREATE
+
+- SELECT * FROM 테이블이름
+
+- GROUP BY : 그룹으로 만들기
+- HAVING : 그룹에서 조건 걸기
+SELECT custid, COUNT(*), SUM(saleprice)
+FROM Orders
+WHERE saleprice >= 8000
+GROUP BY custid
+HAVING COUNT(*) >= 2
+
+- distinct : 중복되는 값 제외
+ SELECT DISTINCT 필드이름 FROM 테이블이름
+
+- BETWEEN a AND b : a 이상 b 이하
+SELECT * FROM Book WHERE price BETWEEN 10000 AND 20000
+SELECT * FROM Book WHERE price >= 10000 AND price <= 20000
+
+- IN : 해당하는 것만 선택
+SELECT * FROM Book WHERE publisher IN ('굿스포츠','대한미디어')
+- NOT IN : 해당하는 것 빼고 선택
+
+- LIKE : 유사한 것 검색
+LIKE '%축구%'
+LIKE '_구%'
+LIKE '%' : 모든 것 지정
+
+- order by : 정렬
+ asc (기본값) :  오름차순
+ desc : 내림차순
+SELECT * FROM Book ORDER BY price, bookname : 가격 먼저 정렬 후 책 이름으로 정렬
+
+- AS : 이름 설정
+SELECT a.* , b.* FROM 
+	(SELECT SUM(price) AS 총원가 FROM Book) a,
+	(SELECT SUM(saleprice) AS 총판매가 FROM Orders) b
+
+-COUNT : 로우의 갯수 구하기
+
+- UPDATE 테이블이름
+SET 필드이름1=데이터값1, 필드이름2=데이터값2, ...
+WHERE 필드이름=데이터값
+
+- 조인
+SELECT a.saleprice, a.orderdate, b.bookname, b.publisher, b.price
+FROM Orders a, Book b --> Orders 를 a로 정의
+WHERE a.bookid = b.bookid
+
+- LIMIT : 범위지정
+SELECT * FROM Book LIMIT 0, 2 --0번째부터 2개 표시
+
+- GRANT : 권한부여
+- REVOKE : 권한취소

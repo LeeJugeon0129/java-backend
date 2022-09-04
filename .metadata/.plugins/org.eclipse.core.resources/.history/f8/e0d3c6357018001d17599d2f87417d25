@@ -1,8 +1,0 @@
-package projectA13;
-
-public class OutterA {
-	String field = "OutterA-field";
-	void method() {
-		System.out.println();
-	}
-}
