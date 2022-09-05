@@ -6,6 +6,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\82109\Desktop\코리아it\projectWeb01"/>
+			<item value="C:\Users\82109\Desktop\코리아it\projectBDB"/>
+			<item value="C:\Users\82109\Desktop\코리아it\projectADB"/>
+			<item value="C:\Users\82109\Desktop\코리아it\projectA18"/>
 			<item value="C:\Users\82109\Desktop\코리아it\projectDB"/>
 			<item value="C:\Users\82109\Desktop\코리아it\projectA02"/>
 			<item value="C:\Users\82109\Desktop\코리아it\projectA03"/>
