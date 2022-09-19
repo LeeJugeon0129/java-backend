@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="projectWeb01" path="/projectWeb01" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb01"/><Context docBase="projectWeb03" path="/projectWeb03" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb03"/><Context docBase="projectWeb04" path="/projectWeb04" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb04"/><Context docBase="projectWeb05" path="/projectWeb05" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb05"/></Host>
+      <Context docBase="projectWeb01" path="/projectWeb01" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb01"/><Context docBase="projectWeb03" path="/projectWeb03" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb03"/><Context docBase="projectWeb04" path="/projectWeb04" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb04"/><Context docBase="projectWeb05" path="/projectWeb05" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb05"/><Context docBase="projectWeb06" path="/projectWeb06" reloadable="true" source="org.eclipse.jst.jee.server:projectWeb06"/><Context docBase="test22" path="/test22" reloadable="true" source="org.eclipse.jst.jee.server:test22"/></Host>
     </Engine>
   </Service>
 </Server>

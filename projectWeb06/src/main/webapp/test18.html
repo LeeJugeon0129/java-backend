@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		var n = prompt("2자리수 정수를 입력하세요(10~99)", "");
+
+		var num = parseInt(n);
+
+		if (num<10 || num>99) {
+			document.write("10~99 사이의 정수만 입력하세요.");
+		} else {
+			var ten = parseInt(num / 10);
+			var one = num % 10;
+
+			if (ten == one) {
+				document.write("10의 자리와 1의 자리가 같습니다.");
+			} else {
+				document.write("10의 자리와 1의 자리가 다릅니다.");
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		var n = prompt("10의 배수를 입력하세요", "");
+		var num = parseInt(n);
+
+		if (num % 10 == 0) {
+			document.write("10의 배수입니다.<br>");
+			if (num % 3 == 0) {
+				document.write("3의 배수입니다.<br>");
+			} else {
+				document.write("3의 배수가 아닙니다.<br>")
+			}
+		} else {
+			document.write("10의 배수가 아닙니다.<br>");
+		}
+	</script>
+
+</body>
+</html>
